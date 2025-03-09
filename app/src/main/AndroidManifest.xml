@@ -25,7 +25,7 @@
         <!-- Legg til Google Maps API-nøkkelen -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDeNXKJCFQ9jTkEExHYLNEvBJ73xzAghBY" />
+            android:value="" />
 
         <!-- MainActivity -->
         <activity
