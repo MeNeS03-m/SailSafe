@@ -23,7 +23,7 @@ class GeocodingDataSource {
     suspend fun fetchGeocodingData(lat: Double, lon: Double): GeocodingData? {
         try {
             val url =
-                "https://maps.googleapis.com/maps/api/geocode/json?latlng=$lat,$lon&key=AIzaSyBwUOUwUrv6mqU9NOFe9Ot_kcvKmkPFpm4"
+                "https://maps.googleapis.com/maps/api/geocode/json?latlng=$lat,$lon&key="
             val httpResponse: HttpResponse = client.get(url)
 
             return when (httpResponse.status) {
